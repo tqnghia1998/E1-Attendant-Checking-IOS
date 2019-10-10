@@ -359,7 +359,6 @@
 				DC0561A71FFE7EB100D00EE0 /* Frameworks */,
 				DC0561A81FFE7EB100D00EE0 /* Resources */,
 				86743CC9AA6CEEC39CA7C064 /* [CP] Embed Pods Frameworks */,
-				68E953A5D6A881A8AA7E348B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -378,8 +377,6 @@
 				DC0561BA1FFE7EB200D00EE0 /* Sources */,
 				DC0561BB1FFE7EB200D00EE0 /* Frameworks */,
 				DC0561BC1FFE7EB200D00EE0 /* Resources */,
-				335C925A8DFAE718C03FBA82 /* [CP] Embed Pods Frameworks */,
-				E8E4A635AA3C6C3B202B3D88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,8 +396,6 @@
 				DC0561C51FFE7EB200D00EE0 /* Sources */,
 				DC0561C61FFE7EB200D00EE0 /* Frameworks */,
 				DC0561C71FFE7EB200D00EE0 /* Resources */,
-				CE99EDD0B11D6EA2003C9DE2 /* [CP] Embed Pods Frameworks */,
-				2EA6D2714E4E7A249FA512BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -506,58 +501,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2EA6D2714E4E7A249FA512BC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDDUITests/Pods-QLDDUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		335C925A8DFAE718C03FBA82 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDDTests/Pods-QLDDTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68E953A5D6A881A8AA7E348B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDD/Pods-QLDD-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		86743CC9AA6CEEC39CA7C064 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QLDD/Pods-QLDD-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-QLDD/Pods-QLDD-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework",
@@ -586,7 +536,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDD/Pods-QLDD-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QLDD/Pods-QLDD-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C244B79CD273411A17FED48 /* [CP] Check Pods Manifest.lock */ = {
@@ -623,36 +573,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE99EDD0B11D6EA2003C9DE2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDDUITests/Pods-QLDDUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E8E4A635AA3C6C3B202B3D88 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLDDTests/Pods-QLDDTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE0694983F6C7FE31D7D0AAD /* [CP] Check Pods Manifest.lock */ = {

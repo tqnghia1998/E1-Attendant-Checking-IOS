@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         //UserDefaults.standard.set("http://192.168.1.240:3000/", forKey: "HOST");
         //UserDefaults.standard.set("http://192.168.0.106:3000/", forKey: "HOST");
-        UserDefaults.standard.set("https://hcmus-attendance.herokuapp.com/", forKey: "HOST");
+        UserDefaults.standard.set("https://e1casestudy.herokuapp.com/", forKey: "HOST");
 
         indicator.center = self.view.center
         indicator.activityIndicatorViewStyle = .gray

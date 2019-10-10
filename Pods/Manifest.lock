@@ -25,6 +25,20 @@ DEPENDENCIES:
   - SpreadsheetView
   - SwiftyJSON
 
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - KRActivityIndicatorView
+    - MTBBarcodeScanner
+    - Socket.IO-Client-Swift
+    - SpreadsheetView
+    - Starscream
+    - SwiftyJSON
+    - UIImageViewModeScaleAspect
+
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
@@ -38,6 +52,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   UIImageViewModeScaleAspect: 11a790a0b9d248a13dc63e3a78991f1463b6d84e
 
-PODFILE CHECKSUM: 892b80a1adf3fd96c6b647eac0dfe7bda36f18d3
+PODFILE CHECKSUM: 71997764868134db39d28358dba877ad06fef2e5
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.3
